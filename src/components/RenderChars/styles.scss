@@ -1,9 +1,19 @@
 .container-chars {
   margin-top: 40px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+
+  .content-charactes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+  }
 
   p {
   color: #FFF;

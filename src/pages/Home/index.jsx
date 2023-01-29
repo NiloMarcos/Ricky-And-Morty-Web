@@ -11,7 +11,7 @@ export function Home() {
   return (
     <main className='container'>
       <Header />
-      <RenderChars />
+      <RenderChars />    
     </main>
   );
 }

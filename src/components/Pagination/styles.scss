@@ -1,0 +1,25 @@
+.container-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  padding: 20px 0;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+    li {
+      list-style: none;
+
+      button {
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+        color: #FFF;
+      }
+    }
+  }
+}
